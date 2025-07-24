@@ -6,7 +6,7 @@ import IncidentList from './components/IncidentList';
 import IncidentTimeline from './components/IncidentTimeline';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://myapp-3-az7z.onrender.com/api';
 
 function App() {
   const [incidents, setIncidents] = useState([]);
